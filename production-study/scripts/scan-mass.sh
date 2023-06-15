@@ -1,5 +1,7 @@
 #!/bin/bash
 
-./bin/mg5 ../darkhiggs_mass-scan.tex
-./bin/mg5 ../dmsimp_spin0_res_mass-scan.txt
-./bin/mg5 ../dmsimp_spin1_res_mass-scan.txt
+set -e
+
+./bin/mg5 ../configs/darkhiggs_mass-scan.txt
+./bin/mg5 ../configs/dmsimp_spin0_res_mass-scan.txt
+./bin/mg5 ../configs/dmsimp_spin1_res_mass-scan.txt
